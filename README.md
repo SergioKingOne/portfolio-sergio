@@ -18,8 +18,3 @@ Continuous Learning: As an aspiring developer, Sergio's journey is characterized
 
 Vision:
 Sergio's Portfolio Showcase is not just a landing page; it's a window into the future of an emerging software developer. With a passion for problem-solving, dedication to excellence, and a hunger for continuous improvement, Sergio's journey promises to lead to exciting and innovative contributions to the world of software development.
-
-Join us on this journey by exploring Sergio's projects and witnessing his progression from a junior developer to a future senior web developer. Your support and feedback are invaluable as he aspires to achieve economic freedom and health while mastering the realms of software and trading.
-
-Thank you for visiting Sergio's Portfolio Showcase, where the world of code and creativity converge!
-
