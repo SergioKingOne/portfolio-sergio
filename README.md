@@ -1,6 +1,6 @@
 # portfolio-sergio
 
-My first Projects Landing Page.
+My Projects Landing Page.
 
 Welcome to the captivating world of Sergio's Portfolio Showcase! This dynamic landing page serves as the gateway to a collection of Sergio's inaugural software development projects.
 
