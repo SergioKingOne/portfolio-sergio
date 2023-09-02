@@ -10,17 +10,27 @@
     <header>
       <nav>
         <div class="container">
-          <h1>Sergio Robayo</h1>
-          <ul>
-            <li><a href="#about">About</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
-          </ul>
-          <br />
-          <p>
-            This is just a beta at the moment, I'm still working on my landing
-            page to showcase my projects 😁
-          </p>
+          <div class="header-content">
+            <div class="profile-picture">
+              <img src="imgs/sergio.jpg" alt="Sergio Robayo" />
+            </div>
+            <div class="header-info">
+              <div class="info-row">
+                <h1>Sergio Robayo</h1>
+                <ul>
+                  <li><a href="#about">About</a></li>
+                  <li><a href="#projects">Projects</a></li>
+                  <li><a href="#contact">Contact</a></li>
+                </ul>
+              </div>
+              <br />
+              <p>
+                This is just a beta at the moment, I'm still working on my
+                landing page to showcase my projects 😁. You can still check my
+                projects down below!
+              </p>
+            </div>
+          </div>
         </div>
       </nav>
     </header>
@@ -66,9 +76,24 @@
               Learn More
             </button>
           </div>
+          <div class="project-card">
+            <img src="./imgs/omnifood.png" alt="Omnifood Logo" />
+            <h3>Omnifood</h3>
+            <p>
+              Omnifood is an AI-powered food subscription service that provides
+              healthy meal options tailored to your personal tastes and
+              nutritional needs. It offers a convenient way to eat healthy every
+              day with personalized meal plans and delicious recipes.
+            </p>
+            <button class="btn learn-more-btn" data-target="modal-2">
+              Learn More
+            </button>
+          </div>
         </div>
       </div>
     </section>
+
+    <!-- Project 1 content -->
 
     <div class="modal-container" id="modal-1">
       <div class="modal-content">
@@ -93,6 +118,40 @@
           target="_blank"
           class="btn"
           >Visit Popcorn</a
+        >
+      </div>
+    </div>
+
+    <div class="modal-container" id="modal-2">
+      <div class="modal-content">
+        <span class="close-modal" onclick="closeModal('modal-2')">&times;</span>
+        <h2>Omnifood</h2>
+        <img src="imgs/omnifood.png" alt="Omnifood Logo" />
+        <div class="modal-text">
+          <p>Welcome to Omnifood, your healthy meal subscription service! 🥗</p>
+          <p>
+            Omnifood is an AI-powered food subscription that will make you eat
+            healthy again, 365 days per year. It's tailored to your personal
+            tastes and nutritional needs.
+          </p>
+          <h3>Key Features:</h3>
+          <ul>
+            <li>Receive a daily healthy meal delivered to your door.</li>
+            <li>Personalized meal plans based on your dietary preferences.</li>
+            <li>Choose from a variety of delicious recipes.</li>
+            <li>Flexible delivery schedule and address customization.</li>
+          </ul>
+          <h3>Tech Stack:</h3>
+          <p>HTML, CSS, JavaScript, React, Git & GitHub</p>
+          <p>
+            Join Omnifood and start eating well without the hassle of cooking!
+          </p>
+        </div>
+        <a
+          href="https://omnifood-sergio.netlify.app/"
+          class="btn"
+          target="_blank"
+          >Try Omnifood</a
         >
       </div>
     </div>

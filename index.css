@@ -1,5 +1,5 @@
 /* Reset some default styles */
-body, h1, h2, p, ul {
+* {
     margin: 0;
     padding: 0;
 }
@@ -19,6 +19,8 @@ header {
     background-color: #333;
     color: #fff;
     padding: 10px 0;
+    display: flex;
+    align-items: center; /* Align items vertically in the header */
 }
 
 header h1 {
@@ -49,7 +51,6 @@ nav a {
 #hero {
     background-image: url('your-background-image.jpg');
     background-size: cover;
-    
     text-align: center;
     padding: 100px 0;
 }
@@ -180,7 +181,6 @@ footer {
     backdrop-filter: blur(5px);
 }
 
-
 .modal-content {
     background-color: #fff;
     padding: 20px;
@@ -259,4 +259,37 @@ footer {
 .modal-content img {
     max-width: 100%;
     height: auto;
+}
+
+/* Profile picture alignment */
+.profile-picture {
+    border-radius: 50%;
+    overflow: hidden;
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+    background-color: #4b4f57;
+}
+
+.profile-picture img {
+    max-width: 100%;
+    height: 100%;
+}
+
+/* Adjust styles for the header info */
+.header-info {
+    flex-grow: 1; /* Allow the info to grow and take remaining space */
+}
+
+/* Add a media query to adjust layout for smaller screens if needed */
+@media screen and (max-width: 768px) {
+    .header {
+        flex-direction: column; /* Stack items vertically on smaller screens */
+        align-items: flex-start; /* Align items to the left */
+    }
+
+    .profile-picture {
+        margin-right: 0; /* Remove margin on smaller screens */
+        margin-bottom: 10px; /* Add margin between picture and text */
+    }
 }
