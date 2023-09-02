@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <title>Sergio Robayo - Portfolio</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="container">
+          <h1>Sergio Robayo</h1>
+          <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+          <br />
+          <p>
+            This is just a beta at the moment, I'm still working on my landing
+            page to showcase my projects 😊
+          </p>
+        </div>
+      </nav>
+    </header>
+
+    <section id="hero">
+      <div class="container">
+        <h2>Passionate Developer & Problem Solver</h2>
+        <p>Seeking opportunities to make a difference</p>
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="container">
+        <h2>About Me</h2>
+        <p>
+          Passionate and adaptable individual with a strong background in
+          technical support and a primary focus on software development. My main
+          strength lies in software development, backed by self-driven and
+          academic experience in full-stack development through academic
+          projects and continuous education. I'm seeking opportunities to apply
+          my programming skills, problem-solving abilities, dedication, and
+          fast-learning capacity in a software development role.
+        </p>
+      </div>
+    </section>
+
+    <section id="projects">
+      <div class="container">
+        <h2>Projects</h2>
+        <div class="project-grid">
+          <!-- Project 1 content -->
+          <div class="project-card">
+            <img src="./imgs/popcorn.png" alt="Project 1 Title" />
+            <h3>Popcorn</h3>
+            <p>
+              Popcorn is a movie companion web app designed for movie
+              enthusiasts. It allows users to search for movies, view detailed
+              information, rate them, track watched movies, and gain insights
+              into their movie-watching habits. Popcorn offers an intuitive and
+              user-friendly experience.
+            </p>
+            <button class="btn learn-more-btn" data-target="modal-1">
+              Learn More
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="modal-container" id="modal-1">
+      <div class="modal-content">
+        <span class="close-modal" onclick="closeModal('modal-1')">&times;</span>
+        <h2>Popcorn</h2>
+        <img src="imgs/popcorn.png" alt="Popcorn Project" />
+        <div class="modal-text">
+          <p>Welcome to Popcorn, your movie companion! 🍿</p>
+          <p>Popcorn is a web app for movie lovers.</p>
+          <h3>Key Features:</h3>
+          <ul>
+            <li>Search and explore movies.</li>
+            <li>Rate and track your watched movies.</li>
+            <li>Get movie details and IMDb ratings.</li>
+          </ul>
+          <h3>Tech Stack:</h3>
+          <p>HTML, CSS, JavaScript, React, OMDB API, Git & GitHub</p>
+          <p>Contribute to our open-source project on GitHub!</p>
+          <p>We value your feedback to make Popcorn even better.</p>
+        </div>
+        <a
+          href="https://sergiokingone.github.io/pop_corn_react/"
+          target="_blank"
+          class="btn"
+          >Visit Popcorn</a
+        >
+      </div>
+    </div>
+
+    <section id="contact">
+      <div class="container">
+        <h2>Contact Me</h2>
+        <p>Email: sergiorobayoro@gmail.com</p>
+        <p>Phone: +57 3114919504</p>
+        <p>Location: Bogotá D.C. Engativá</p>
+        <p>
+          LinkedIn:
+          <a href="linkedin.com/in/sergiorobayo-500584216"
+            >linkedin.com/in/sergiorobayo-500584216</a
+          >
+        </p>
+        <p>
+          Github:
+          <a href="github.com/SergioKingOne?tab=repositories"
+            >github.com/SergioKingOne?tab=repositories</a
+          >
+        </p>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <p>&copy; 2023 Sergio Mauricio Robayo Rojas</p>
+      </div>
+    </footer>
+    <script src="index.js"></script>
+  </body>
+</html>
