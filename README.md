@@ -2,7 +2,6 @@
 
 My first Projects Landing Page.
 
-Description:
 Welcome to the captivating world of Sergio's Portfolio Showcase! This dynamic landing page serves as the gateway to a collection of Sergio's inaugural software development projects.
 
 Key Features:
